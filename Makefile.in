@@ -978,7 +978,7 @@ top_srcdir = @top_srcdir@
 # Automake requirements
 AUTOMAKE_OPTIONS = gnits 1.10 dist-bzip2
 ACLOCAL_AMFLAGS = -I m4
-SUBDIRS = lib po sed doc testsuite
+SUBDIRS = lib po sed testsuite
 noinst_DATA = 
 noinst_HEADERS = basicdefs.h
 EXTRA_DIST = BUGS THANKS COPYING.DOC \
